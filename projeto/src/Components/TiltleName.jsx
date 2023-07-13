@@ -1,14 +1,21 @@
 import React from "react";
-import imagem from "./imgs/fundo2.jpg";
+//import imagem from "./imgs/fundo2.jpg";
+import styled from "styled-components";
 
 function TitleName() {
     return (
-      <div imgURL={imagem} id="Conteiner-Global">
+      <Conteiner>
         <div id="Conteiner">
          <h1>Bell T Boss</h1>
         </div>
-      </div>
+      </Conteiner>
     );
   }
   
   export default TitleName;
+
+  const Conteiner = styled.div`
+  background-color: black;
+  color: red;
+    
+  `; 
