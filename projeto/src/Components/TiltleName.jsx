@@ -17,5 +17,6 @@ function TitleName() {
   const Conteiner = styled.div`
   background-color: black;
   color: red;
+  background-image: url(./img/fundo2.jpg);
     
   `; 
