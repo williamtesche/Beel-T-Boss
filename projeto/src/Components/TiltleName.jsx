@@ -3,20 +3,19 @@ import React from "react";
 import styled from "styled-components";
 
 function TitleName() {
-    return (
-      <Conteiner>
-        <div id="Conteiner">
-         <h1>Bell T Boss</h1>
-        </div>
-      </Conteiner>
-    );
-  }
-  
-  export default TitleName;
+  return (
+    <Conteiner>
+      <div id="Conteiner">
+        <h1>Bell T Boss</h1>
+      </div>
+    </Conteiner>
+  );
+}
 
-  const Conteiner = styled.div`
+export default TitleName;
+
+const Conteiner = styled.div`
   background-color: black;
   color: red;
-  background-image: url(./img/fundo2.jpg);
-    
-  `; 
+  text-align: center;
+`;
