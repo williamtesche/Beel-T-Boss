@@ -1,5 +1,5 @@
 import './App.css';
-import TitleName from './Components/TiltleName.jsx';
+//import TitleName from './Components/TiltleName.jsx';
 import Menu from './Components/Menu';
 
 function App() {
@@ -8,7 +8,6 @@ function App() {
     <div className="App">
 
       <Menu />
-     <TitleName />
 
     </div>
   );

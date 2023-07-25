@@ -15,17 +15,16 @@ export default Menu;
 
 
 const Container = styled.div`
-    background-color: #000000;
-    display: flex;
-    float: right;
-
+    display: grid;
+    background-color: black;
+    color: red;
+    margin-top: 30px;
+   
   h2{
-    color: #ff0202;
-	padding: 22px 20px;
-    
-    
- 
-
-    
+    display: flex;
+    border: 1px solid red;
+    margin: 0 20px;
+    margin-left: 60%;
+    justify-content: space-between;
   }
 `;
